@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文件上传</title>
+</head>
+<body>
+    <p>这是我的第一个文件上传的网站</p>
+    <form action="http://localhost:8888/file"  method="POST">
+        <input type="hidden" name="type" value="1"/>
+        <input id="dir" type="file" name="file" >
+        <input id="uploadDir" type="submit" value="提交文件">
+    </form>
+</body>
+</html>
